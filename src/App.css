@@ -25,18 +25,20 @@
 .card {
   display: inline-block;
   text-align: center;
-  width: 3em;
-  font-size: 2em;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  margin: 1em;
+  width: 1.5em;
+  font-size: 1.5em;
+  box-shadow: 8px 8px 25px 8px rgba(0, 247, 33, 0.5);
+  margin: 0.5em;
   user-select: none;
+  color: rgb(0, 0, 0);
+  background: rgb(0, 212, 250);
  }
 
  .activeCard {
-  color: red;
-  background: pink;
+  color: rgb(255, 255, 255);
+  background: rgb(255, 0, 0);
  }
- 
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
